@@ -29,7 +29,6 @@ public class Main {
 
         Aggregator aggregator = new Aggregator(dbClient);
 
-        aggregator.totalUserExercise("Lat Pulldown");
         System.out.println("1. How many total pounds have all of these athletes combined Bench Pressed?");
         System.out.println(aggregator.totalUserExercise("Bench Press"));
         System.out.println("2. How many total pounds did Barry Moore Back Squat in 2016?");
